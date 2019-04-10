@@ -1,0 +1,21 @@
+<launch>
+
+  <node name="gohi_hw_node_rev" pkg="gohi_hw_rev" type="gohi_hw_node_rev" />
+
+  <!-- <param name="robot_description" command="$(find xacro)/xacro $(find gohi_gazebo)/urdf/gohi.urdf.xarco" /> -->
+
+  <!-- <rosparam file="$(find gohi_hw_rev)/config/config.yaml" command="load"/> -->
+
+  <!-- load the controllers -->
+
+  <!-- <node name="controller_spawner1" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/mobile_base1" args="joint_state_controller1 joint1_position_controller1 joint2_position_controller1 servo1_position_controller1 servo2_position_controller1 mobile_base_controller1"/> -->
+
+  <!-- <node name="robot_state_publisher1" pkg="robot_state_publisher" type="state_publisher" >
+      <remap from="/joint_states" to="/mobile_base/joint_states1"/>
+  </node> -->
+
+
+
+
+</launch>

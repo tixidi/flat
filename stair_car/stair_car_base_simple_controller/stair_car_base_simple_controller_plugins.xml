@@ -1,0 +1,9 @@
+<library path="lib/libstair_car_base_simple_controller">
+
+  <class name="stair_car_base_simple_controller/BaseSimpleController" type="stair_car_base_simple_controller::BaseSimpleController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      simple controller for sending command directly to embeded system for kinematics calculation
+    </description>
+  </class>
+     
+</library>

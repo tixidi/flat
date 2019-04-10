@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="gohi_hw_node_relay" pkg="gohi_hw_relay" type="gohi_hw_node_relay" />
+
+
+
+
+</launch>

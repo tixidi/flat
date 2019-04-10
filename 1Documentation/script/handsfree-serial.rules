@@ -1,0 +1,3 @@
+KERENL=="usb 1-2", ATTRS{idVendor}=="10c4",ATTRS{idProduct}=="ea60",MODE:="0777",SYMLINK+="ttyUSB_control"
+KERENL=="usb 1-3", ATTRS{idVendor}=="10c4",ATTRS{idProduct}=="ea60",MODE:="0777",SYMLINK+="ttyUSB_sensor"
+KERENL=="usb 1-4", ATTRS{idVendor}=="10c4",ATTRS{idProduct}=="ea60",MODE:="0777",SYMLINK+="ttyUSB_tongxin"

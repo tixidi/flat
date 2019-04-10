@@ -1,0 +1,17 @@
+1、lms_buffer.h、
+   LMS1xx.cpp
+   需要借助开源库 #include "console_bridge/console.h"
+   输出一些调试信息
+   如：  logDebug("Empty buffer, nothing to return.");
+         logWarn("No STX found, dropping %d bytes from buffer.", total_length_);
+   
+
+2、catkin_simple可用于规范catkin package, 并简化CMakeLists 
+
+3、添加opengl
+   target_link_libraries(LMS1xx_node LMS1xx GL GLU glut)
+4、laser 扫描频率 5000
+         角度分辨率  5000／10000
+         开始角度 -450000／10000
+         结束角度 2250000／10000
+         共计角度 2700000／10000

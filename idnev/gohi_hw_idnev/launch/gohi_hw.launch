@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="gohi_hw_node_idnev" pkg="gohi_hw_idnev" type="gohi_hw_node_idnev" />
+
+
+
+
+</launch>

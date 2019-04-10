@@ -1,0 +1,9 @@
+<launch>
+
+
+  <node name="gohi_hw_node_imu" pkg="gohi_hw_imu" type="gohi_hw_node_imu">
+  <param name="serial_port"         type="string" value="/dev/ttyUSB0"/>
+</node>
+
+
+</launch>
